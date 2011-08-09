@@ -1,0 +1,30 @@
+application: hoovmarklet
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /static/images
+  static_dir: static/images
+
+
+- url: /oauthtest
+  script: oauthtest.py
+
+- url: /redirect
+  script: oauthtest.py
+
+- url: /oauthreturned/
+  script: oauthreturned.py
+
+
+- url: /static/stylesheet
+  static_dir: static/stylesheet
+
+- url: /yourmom
+  script: yourmom.py
+
+
+- url: /login/
+  script: hoov_call.py
