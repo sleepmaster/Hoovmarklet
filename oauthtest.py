@@ -13,13 +13,13 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 consumer_key = 'MGueyfX4ZYdghpyMqU'
 consumer_secret = 'VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD'
 
-#request_token_url = 'http://internplease.frontend-ivan1.office.loggly.net/api/oauth/request_token/'
-#access_token_url = 'http://internplease.frontend-ivan1.office.loggly.net/api/oauth/access_token/'
-#authorize_url = 'http://internplease.frontend-ivan1.office.loggly.net/api/oauth/authorize/'
+#request_token_url = 'http://internplease.frontend-ivan2.office.loggly.net/api/oauth/request_token/'
+#access_token_url = 'http://internplease.frontend-ivan2.office.loggly.net/api/oauth/access_token/'
+#authorize_url = 'https://internplease.frontend-ivan2.office.loggly.net/api/oauth/authorize/'
 
 request_token_url = 'http://internplease.loggly.com/api/oauth/request_token/'
 access_token_url = 'http://internplease.loggly.com/api/oauth/access_token/'
-authorize_url = 'http://internplease.loggly.com/api/oauth/authorize/'
+authorize_url = 'https://internplease.loggly.com/api/oauth/authorize/'
 
 
 def get_data():

@@ -12,20 +12,18 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 
 
 # Set the API endpoint 
-#url = "http://internplease.frontend-ivan1.office.loggly.net/api/inputs/"
+#url = "http://internplease.frontend-ivan2.office.loggly.net/api/inputs/"
 url = "http://internplease.loggly.com/api/inputs/"
 #consumer_key = 'DK2jcYzQztQqkGLHEk'
 #consumer_secret = 'VDvU32gg46DRaq24FmSXy9zNg9s7WCWC'
 consumer_key = 'MGueyfX4ZYdghpyMqU'
 consumer_secret = 'VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD'
-#access_token_url = 'http://internplease.frontend-ivan1.office.loggly.net/api/oauth/access_token/'
+#access_token_url = 'http://internplease.frontend-ivan2.office.loggly.net/api/oauth/access_token/'
 access_token_url = 'http://internplease.loggly.com/api/oauth/access_token/'
 
 # Set the base oauth_* parameters along with any other parameters required
 # for the API call.
 cookie_string = os.environ.get('HTTP_COOKIE')
-#print "My cookie", cookie_string
-
 #c.load(cookie_string)
 #print c['secret']
 
@@ -35,7 +33,7 @@ cookie_string = os.environ.get('HTTP_COOKIE')
 #def get_access_token():
 #    token = oauth.Token(key="swHm3Eeza9zHQ8YE62", secret="bVPEAczQzkGxnPSfb2rFPdPf6getCGb7")
 #consumer = oauth.Consumer(key="DK2jcYzQztQqkGLHEk", secret="VDvU32gg46DRaq24FmSXy9zNg9s7WCWC")
-consumer = oauth.Consumer(key="MGueyfX4ZYdghpyMqU", secret=" VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD")
+consumer = oauth.Consumer(key="MGueyfX4ZYdghpyMqU", secret="VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD")
 # Set our token/key parameters
 
 # Create our request. Change method, etc. accordingly.
