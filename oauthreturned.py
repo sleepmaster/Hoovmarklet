@@ -35,7 +35,7 @@ cookie_string = os.environ.get('HTTP_COOKIE')
 #def get_access_token():
 #    token = oauth.Token(key="swHm3Eeza9zHQ8YE62", secret="bVPEAczQzkGxnPSfb2rFPdPf6getCGb7")
 #consumer = oauth.Consumer(key="DK2jcYzQztQqkGLHEk", secret="VDvU32gg46DRaq24FmSXy9zNg9s7WCWC")
-consumer = oauth.Consumer(key="MGueyfX4ZYdghpyMqU", secret=" VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD")
+consumer = oauth.Consumer(key="MGueyfX4ZYdghpyMqU", secret="VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD")
 # Set our token/key parameters
 
 # Create our request. Change method, etc. accordingly.
