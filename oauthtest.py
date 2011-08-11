@@ -19,7 +19,7 @@ consumer_secret = 'VQ3r83KRafzqjx7fbdeQb2SKLj9jpSmD'
 
 request_token_url = 'http://internplease.loggly.com/api/oauth/request_token/'
 access_token_url = 'http://internplease.loggly.com/api/oauth/access_token/'
-authorize_url = 'http://internplease.loggly.com/api/oauth/authorize/'
+authorize_url = 'https://internplease.loggly.com/api/oauth/authorize/'
 
 
 def get_data():
